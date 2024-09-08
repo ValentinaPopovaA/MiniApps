@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  VKTech
+//  MiniApps
 //
 //  Created by Валентина Попова on 04.09.2024.
 //
