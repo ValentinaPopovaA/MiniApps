@@ -33,6 +33,12 @@ class MiniAppTableViewCell: UITableViewCell {
         ])
     }
 
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        miniAppContainerView.subviews.forEach { $0.removeFromSuperview() }
+        miniAppContainerView.frame.size = CGSize(width: contentView.frame.width, height: contentView.frame.height)
+    }
+
     func configure(with view: UIView) {
         miniAppContainerView.subviews.forEach { $0.removeFromSuperview() }
 

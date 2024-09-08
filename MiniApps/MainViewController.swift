@@ -147,12 +147,11 @@ final class MainViewController: UIViewController, UITableViewDelegate, UITableVi
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        let isPortrait = UIDevice.current.orientation.isPortrait
         switch displayMode {
         case .small:
-            return isPortrait ? view.frame.height / 8 : view.frame.height / 5
+            return view.frame.height / 8
         case .large:
-            return isPortrait ? view.frame.height / 2 : view.frame.height / 3
+            return view.frame.height / 2
         }
     }
     
