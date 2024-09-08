@@ -21,6 +21,7 @@
 		A73647B22C8E0B7100979509 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73647B12C8E0B7100979509 /* WeatherModel.swift */; };
 		A73647B42C8E0B8000979509 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73647B32C8E0B8000979509 /* WeatherView.swift */; };
 		A73647B62C8E0C7A00979509 /* WeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73647B52C8E0C7A00979509 /* WeatherAPI.swift */; };
+		A76731A92C8E32AB00F8D4AF /* TicTacToeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76731A82C8E32AB00F8D4AF /* TicTacToeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		A73647B12C8E0B7100979509 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 		A73647B32C8E0B8000979509 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		A73647B52C8E0C7A00979509 /* WeatherAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPI.swift; sourceTree = "<group>"; };
+		A76731A82C8E32AB00F8D4AF /* TicTacToeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				A73647B02C8E0B5C00979509 /* WeatherApp */,
 				A73647AF2C8E08CC00979509 /* LocationApp */,
 				A73647A72C8C704500979509 /* TicTacToeViewController.swift */,
+				A76731A82C8E32AB00F8D4AF /* TicTacToeModel.swift */,
 			);
 			path = MiniApps;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				A73647AC2C8E076C00979509 /* LocationModel.swift in Sources */,
 				A73647A22C88B2AA00979509 /* WeatherViewController.swift in Sources */,
 				A736478D2C889CC300979509 /* MainViewController.swift in Sources */,
+				A76731A92C8E32AB00F8D4AF /* TicTacToeModel.swift in Sources */,
 				A73647892C889CC300979509 /* AppDelegate.swift in Sources */,
 				A73647B22C8E0B7100979509 /* WeatherModel.swift in Sources */,
 				A73647AA2C8C9E8300979509 /* MiniAppTableViewCell.swift in Sources */,
